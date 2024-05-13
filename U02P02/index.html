@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        
+        table {
+            width: 100%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <hr>
+    <h3> Definir una tabla básica</h3>
+
+    <table>
+
+        <caption>Definir una tabla básica</caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Amado</td>
+                <td>Desir</td>
+                <td>34</td>
+
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>Desir</td>
+                <td>30</td>
+
+            </tr>
+            <tr>
+                <td>Ryan</td>
+                <td>Desir</td>
+                <td>4</td>
+
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <h3>Definir una tabla compleja</h3>
+    <table>
+        <caption>Definir una tabla básica</caption>
+        <thead>
+            <tr>
+                <th>Nombres</th>
+                <th>Materias</th>
+                <th>Nota</th>
+                <th>Calificaciones</th>
+                <th>Links</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Amado</td>
+                <td>Prog 1</td>
+                <td>6</td>
+                <td>Bien</td>
+                <td>
+                    <a href="https://medium.com/" target="_blank"></a>></a> medium.com</a><br></a>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">Daniel</td>
+                <td>Lab 1</td>
+                <td>5</td>
+                <td>Mal</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Durol</td>
+                <td>Lab 2</td>
+                <td>9</td>
+                <td>Bien</td>
+                <td>
+                    <a href=""></a>
+                </td>
+
+            </tr>
+            <tr>
+                <td>Melki</td>
+                <td>Lab 2</td>
+                <td>8</td>
+                <td>Bien</td>
+                <td></td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+    <hr>
+    <h1>Agrupe la información personal</h1>
+    <form action="">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" value="Amadeus" /> <br>
+        <hr>
+
+        <label for="nombre">Nombre Completo :</label>
+        <input type="text" id="nombre Completo" name="nombre completo" value="Amadeus Desir" /> <br>
+        <hr>
+
+
+
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+        <input type="submit" value="Enviar">
+
+        <hr>
+
+        <label for="edad">Edad</label> <br>
+        <input type="number" id="edad" name="edad"> <br>
+
+        <hr>
+
+        <label for="nacionalidad">Nacionalidad</label> <br>
+        <input type="number" id="edad" name="edad"> <br>
+        <hr>
+
+        <label for="condicion">Condición Laboral:</label><br>
+        <select id="condicion" name="condicion">
+          <option value="desempleado">Desempleado</option>
+          <option value="busqueda">En Búsqueda Laboral</option>
+          <option value="part-time">Trabajo Part Time</option>
+          <option value="full-time">Trabajo Full Time</option>
+        </select>
+
+        <hr>
+
+
+        <h3>Información :</h3>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <h3>Gustos Personales:</h3>
+        <label for="musica">Gustos Musicales:</label><br>
+        <input type="text" id="musica" name="musica"><br>
+
+        <label for="comida">Comida Preferida:</label><br>
+        <select id="comida" name="comida">
+            <option value="pizza">Pizza</option>
+            <option value="hamburguesa">Hamburguesa</option>
+            <option value="sushi">Sushi</option>
+            <option value="ensalada">Ensalada</option>
+        </select><br><br>
+
+        <input type="checkbox" id="recordar" name="recordar">
+        <label for="recordar">Recordar mis datos</label><br><br>
+
+        <input type="submit" value="Enviar">
+
+
+    </form>
+
+</body>
+
+</html>
