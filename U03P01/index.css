@@ -16,4 +16,21 @@ h2 {
 
 p {
     font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul,
+li {
+    font-family: monospace;
+    font-size: 18psx;
+}
+
+ul {
+    font-weight: bold;
+    color: darkorange;
+    text-decoration: underline;
+    margin-left: 100px;
+    padding: 20px;
+    border: 2px solid blue;
 }
